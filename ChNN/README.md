@@ -4,4 +4,4 @@
 [[GitHub repo]](https://github.com/dimitree54/ChNN)
 
 ## About ChNN
-Nowadays artificial neural networks are showing stunning results, but far it develop less those neural networks looks like biological ones.
+Nowadays artificial neural networks are showing stunning results, but far those neural networks develop, less they look like biological ones. To acheive SOTA results devlopers introduce a lot of knowledge into NN architecture. GPUs training gives a major boost for NNs, but also introduce extra restrictions for NN architecture forcing strickt layering.
