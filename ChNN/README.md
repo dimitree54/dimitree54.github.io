@@ -21,7 +21,10 @@ To start my search of that "perfect units" I have started with creating a framew
      - Evolution is not targeted on solving external task.
      
     You can share your ideas about such evolution setting [here](https://github.com/dimitree54/ChNN/discussions/37)
- - **Neural democracy**. It is quite a question what local quality to use neuron to optimise and for evolution to rely on. To now 
+ - **Neural democracy**. It is quite a question what local quality to use for neuron to optimise and for evolution to rely on. To not limit neuron behaviour we have chosen collaborative quality estimation. That is it, neurons decide what the quality is itself. Of course not for itself to avoid interests conflict, but for all connected neighbours. It is quite original solution, you can share your ideas about it [here](https://github.com/dimitree54/ChNN/discussions/39). The advantage of such approach is that quality definition becomes trainable (by evolution better quality metrics chosen). But such a freedom may lead to abuse. I hope that neurons-impostors that abuse possibility to judge others will not survive natural selection, but if they do some external control of outgoing quality may be introduced. Later I will refer that outgoing quality as feedback.
+ - **Neurons privacy**. To avoid some possibilities for abuse neural democracy some extra rules introduced.
+   - Secret ballot. Neuron knows only feedback averaged from all neighbours (and external controllers). So it can not behave like "I will send you bad feedback because you have sent me bad".
+   - Anonymity. Neuron does not know the type of neurons connected to it. So it can not behave like "I will send you good feedback because you have the same type as me"
 
 ### Neuron Interface
 [[GitHub link]](https://github.com/dimitree54/ChNN/blob/master/library/main/we/rashchenko/neurons/Neuron.kt)
