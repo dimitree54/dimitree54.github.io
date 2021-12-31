@@ -1,5 +1,10 @@
-# ChNN rules
+# ChNN-Contest
+[[Go back to ChNN project page]](https://dimitree54.github.io/ChNN/)
 
-## do nor store neuron references in sampler
+rules link
 
-## sampler naming convention
+list of rounds
+
+prizes
+
+help with kotlin
